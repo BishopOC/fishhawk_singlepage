@@ -184,6 +184,18 @@ table {
 	background-position: -2vw -5vh;
 	background-size: cover;
 }
+#marion{
+	background-image: url('../images/marion.png');
+	height: inherit;
+	width: 50%;
+	background-position: top;
+	background-size: 45%;
+	background-repeat: no-repeat;
+}
+
+#mariontxt{
+	font-size: 23px;
+}
 
 #imageDescription{
 	display: flex;
@@ -202,4 +214,8 @@ table {
 
 #firstBottle{
 	background-color: #6BBF9A;
+}
+
+#secondBottle{
+	background-color: #6BAFBC;
 }
