@@ -1,9 +1,9 @@
 $( document ).ready(function () {
             $('body').panelSnap();
-
             var options = {
-            $menu: $('div .menu')
+            $menu: $('div .menu'),
+            menuSelector: 'a',
+            panelSelector: '.drinks',
           };
-
-          $('.panel_container').panelSnap(options);
+          $('.panels').panelSnap(options);
         });

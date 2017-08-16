@@ -63,7 +63,7 @@ table {
   background-color: grey;
 	display: flex;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 }
 #home {
 	background-image: url(http://livedestinfl.com/wp-content/uploads/2013/10/18849.jpg);
@@ -80,19 +80,20 @@ table {
 }
 
 
-.panel_container {
+.panels {
 	display: block;
-  height: 50vh;
-	width: 50vw;
+	position: absolute;
+	left: 40%;
+  height: 50%;
+	width: 50%;
 	overflow: scroll;
 }
 
-.panel_container section{
+.panels section{
 	position: relative;
 	height: 100%;
 	width: 100%;
 	background-color: white;
-	overflow: hidden;
 }
 .logo {
 	margin-top: 35vh;
