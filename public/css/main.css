@@ -84,6 +84,11 @@ table {
 	margin-top: 35vh;
 }
 
+.logo #slogan{
+	/*margin-top: 1vh;*/
+	font-size: 35px;
+}
+
 .logo p{
 	text-align: center;
 	font-size: 115px;
@@ -129,13 +134,11 @@ table {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: rgba(255, 255, 255, 0.7);
 	width: 20vw;
 	height: 7vh;
 	margin: 10px;
 	border-radius: 7px;
 	transition: 0.2s;
-
 }
 
 .menu a{
@@ -143,12 +146,16 @@ table {
 	text-decoration: none;
 	font-size: 30px;
 	color: black;
+  background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 7px;
+	width: 20vw;
+	height: 7vh;
+	padding-top: 3.5%;
+	text-align: center;
+	transition: .2s;
 }
 
 .menu a:hover{
 	color: rgba(255, 255, 255, 0.9);
-}
-
-.menu div:hover{
 	background-color: rgba(255, 255, 255, 0.3);
 }
