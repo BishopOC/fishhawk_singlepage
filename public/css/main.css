@@ -1,3 +1,4 @@
+/*reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,26 +44,63 @@ table {
 }
 
 .flex {
-  scroll-snap-type: mandatory;
   display: flex;
   flex-direction: column;
 }
 
-#home {
+/*body {
+  margin: 0;
+  padding: 0;
+}*/
+
+.scroll {
+	background-size: auto;
+	background-position: 2450px 1130px;
   top: 0px;
   left: 0px;
   height: 100vh;
   width: 100vw;
   background-color: grey;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
-
-#recipes {
-  scroll-snap-align: start;
-  scroll-snap-destination: 0% 100%;
-  scroll-snap-points-x: repeat(100%);
+#home {
+	background-image: url(http://livedestinfl.com/wp-content/uploads/2013/10/18849.jpg);
+	background-size: auto;
+	background-position: 2450px 1130px;
   top: 0px;
   left: 0px;
   height: 100vh;
   width: 100vw;
-  background-color: white;
+  background-color: grey;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.panel_container {
+	display: block;
+  height: 50vh;
+	width: 50vw;
+	overflow: scroll;
+}
+
+.panel_container section{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+}
+.logo {
+	margin-top: 35vh;
+}
+
+.logo p{
+	text-align: center;
+	font-size: 115px;
+	font-family: 'Buda', cursive;
+	font-weight: 500;
 }
