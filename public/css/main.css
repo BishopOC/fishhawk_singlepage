@@ -55,16 +55,17 @@ table {
 
 .scroll {
 	background-size: auto;
-	background-position: 2450px 1130px;
+	/*background-position: 2450px 1130px;*/
   top: 0px;
   left: 0px;
   height: 100vh;
   width: 100vw;
-  background-color: grey;
+  background-color: #E2CB90;
 	display: flex;
-	align-items: center;
+	/*align-items: center;*/
 	flex-direction: row;
 }
+
 #home {
 	background-image: url(http://livedestinfl.com/wp-content/uploads/2013/10/18849.jpg);
 	background-size: auto;
@@ -73,28 +74,12 @@ table {
   left: 0px;
   height: 100vh;
   width: 100vw;
-  background-color: grey;
+  background-color: #E2CB90;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
 
-
-.panels {
-	display: block;
-	position: absolute;
-	left: 40%;
-  height: 50%;
-	width: 50%;
-	overflow: scroll;
-}
-
-.panels section{
-	position: relative;
-	height: 100%;
-	width: 100%;
-	background-color: white;
-}
 .logo {
 	margin-top: 35vh;
 }
@@ -104,4 +89,66 @@ table {
 	font-size: 115px;
 	font-family: 'Buda', cursive;
 	font-weight: 500;
+}
+
+.panels {
+	display: block;
+	position: absolute;
+	right: 7%;
+  height: 78%;
+	width: 52%;
+	overflow: scroll;
+	border-radius: 5px;
+}
+
+.panels section{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+.scroll h1{
+	font-family: 'Buda', cursive;
+	font-size: 70px;
+	margin-bottom: 3vh;
+	margin-left: 7vw;
+	margin-top: 2vh;
+}
+
+.menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 34vh;
+	margin-left: 12vw;
+}
+
+.menu div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 20vw;
+	height: 7vh;
+	margin: 10px;
+	border-radius: 7px;
+	transition: 0.2s;
+
+}
+
+.menu a{
+	font-family: 'Buda', cursive;
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
+
+.menu a:hover{
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.menu div:hover{
+	background-color: rgba(255, 255, 255, 0.3);
 }
