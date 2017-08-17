@@ -218,7 +218,7 @@ body{
 	width: 10vw;
 	margin-top: 35px;
 	margin-left: 10px;
-	margin-bottom: 250px;
+	margin-bottom: 260px;
 
 }
 #vodka{
@@ -228,6 +228,7 @@ body{
 	background-repeat: no-repeat;
 	width: 10vw;
 	margin-bottom: 250px;
+	margin-left: -20px;
 
 }
 
