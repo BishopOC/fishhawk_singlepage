@@ -1,4 +1,35 @@
 $(document).ready(function () {
+  $('#absynth').hover(function () {
+    $('.abs').fadeIn();
+  },
+
+    function () {
+    $('.abs').fadeOut();
+  });
+
+  $('#vodka').hover(function () {
+    $('.vod').fadeIn();
+  },
+
+    function () {
+    $('.vod').fadeOut();
+  });
+
+  $('#marion').hover(function () {
+    $('.mar').fadeIn();
+  },
+
+    function () {
+    $('.mar').fadeOut();
+  });
+
+  $('#rum').hover(function () {
+    $('.rum').fadeIn();
+  },
+
+    function () {
+    $('.rum').fadeOut();
+  });
 
   var speed = {
     $menu: $('.header'),
