@@ -20,6 +20,7 @@
 	align-items: center;
 	margin-bottom: 110px;
 }
+
 .shelf{
 	display: flex;
 	justify-content: center;
@@ -29,11 +30,11 @@
 	height: 250px;
 	z-index: 1;
 }
+
 .shelf img{
 	filter: saturate(19) sepia(100%);
 	width: 650px;
 	height: 440px;
-	/*position: absolute;*/
 }
 
 .bottles{
@@ -49,7 +50,7 @@
 .description{
 	width: 50vw;
 	height: 30vh;
-	margin-bottom: 35vh;
+	margin-bottom: 37vh;
 	border-radius: 10px;
 }
 
@@ -59,10 +60,12 @@
 
 .info{
 	width: 50vw;
-	height: 30vh;
+	height: 32vh;
 	position: absolute;
 	display: flex;
 	flex-direction: column;
+  font-family: 'Buda', cursive;
+  font-size: 20px;
 	align-items: center;
 	justify-content: center;
 	background-color: rgba(255,255,255,0.6);
@@ -70,25 +73,30 @@
 	padding: 10px;
 }
 
-.info h3{
+.info .title{
 	text-align: center;
+  font-size: 26px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.body {
+  padding: 10px;
 }
 
 .abs{
-
 	display: none;
 }
 
 .vod{
-
 	display:none;
 }
+
 .mar{
-
 	display:none;
 }
-.rum{
 
+.rum{
 	display:none;
 }
 
@@ -100,6 +108,7 @@
 	width: 10vw;
 	margin-bottom: 250px;
 }
+
 #marion{
 	background-image: url('../images/marion.png');
 	height: 220px;
@@ -107,8 +116,8 @@
 	background-repeat: no-repeat;
 	width: 10vw;
 	margin-bottom: 270px;
-
 }
+
 #rum{
 	background-image: url('../images/rum.png');
 	height: 190px;
@@ -118,8 +127,8 @@
 	margin-top: 35px;
 	margin-left: 10px;
 	margin-bottom: 260px;
-
 }
+
 #vodka{
 	background-image: url('../images/vodka.png');
 	height: 200px;

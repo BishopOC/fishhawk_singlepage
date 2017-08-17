@@ -1,4 +1,5 @@
 #home {
+	background-color: rgba(255 ,255 ,255, 1);
 	background-image: url('../images/map.jpg');
 	background-size: auto;
 	background-position: 2450px 1130px;
@@ -14,12 +15,17 @@
 }
 
 .logo {
-	margin-top: 35vh;
 	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4vh;
 }
 
 .logo #slogan{
-	/*margin-top: 1vh;*/
 	font-size: 35px;
 	z-index: 1;
 }

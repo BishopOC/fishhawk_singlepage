@@ -3,14 +3,16 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-top: 2vh;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 #map {
-	width: 75vw;
-	height: 75vh;
+	width: 60vw;
+	height: 60vh;
 	background-color: grey;
-	margin-top: 12.5vh;
+	margin-top: 10vh;
 }
 
 .page3{
@@ -22,4 +24,20 @@
 	background-position: 2450px 1130px;
 	background-attachment: fixed;
 	z-index: 4;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Buda', cursive;
+	font-size: 30px;
+	font-weight: 900;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: 4vh;
+}
+
+.contact p{
+	padding: 10px;
 }
