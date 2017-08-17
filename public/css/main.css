@@ -55,207 +55,13 @@ body{
 	position: fixed;
 	display: flex;
 	justify-content: center;
-	z-index: 2;
+	z-index: 5;
 }
 
 .headerSnap{
 	display: block;
 	position: absolute;
 	overflow: hidden;
-}
-
-.flex {
-  display: flex;
-  flex-direction: column;
-}
-
-#home {
-	background-image: url('../images/map.jpg');
-	background-size: auto;
-	background-position: 2450px 1130px;
-	background-attachment: fixed;
-  top: 0px;
-  left: 0px;
-  height: 100vh;
-  width: 100vw;
-  background-color: #E2CB90;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}
-
-.logo {
-	margin-top: 35vh;
-}
-
-.logo #slogan{
-	/*margin-top: 1vh;*/
-	font-size: 35px;
-}
-
-.logo p{
-	text-align: center;
-	font-size: 115px;
-	font-family: 'Buda', cursive;
-	font-weight: 500;
-}
-
-.page2 {
-	background-image: url('../images/barwall.jpg');
-	background-size: 100vw 100vh;
-	background-position: 2375px ;
-	top: 0px;
-	left: 0px;
-	height: 100vh;
-	width: 100vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
-}
-
-.fullShelf{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	margin-bottom: 110px;
-}
-.shelf{
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	margin-top: -200px;
-	width: 500px;
-	height: 250px;
-	z-index: 1;
-}
-.shelf img{
-	filter: saturate(19) sepia(100%);
-	width: 650px;
-	height: 440px;
-	/*position: absolute;*/
-}
-
-.bottles{
-	width: 500px;
-	height: 0px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	z-index: 1;
-}
-
-.description{
-	width: 50vw;
-	height: 30vh;
-	margin-bottom: 35vh;
-	border-radius: 10px;
-}
-
-.hidden{
-	visibility: hidden;
-}
-
-.info{
-	width: 50vw;
-	height: 30vh;
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	background-color: rgba(255,255,255,0.6);
-	border-radius: 10px;
-	padding: 10px;
-}
-
-.info h3{
-	text-align: center;
-}
-
-.abs{
-
-	display: none;
-}
-
-.vod{
-
-	display:none;
-}
-.mar{
-
-	display:none;
-}
-.rum{
-
-	display:none;
-}
-
-#absynth{
-	background-image: url('../images/absynth.png');
-	height: 290px;
-	background-size: 175px;
-	background-repeat: no-repeat;
-	width: 10vw;
-	margin-bottom: 250px;
-}
-#marion{
-	background-image: url('../images/marion.png');
-	height: 220px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 10vw;
-	margin-bottom: 270px;
-
-}
-#rum{
-	background-image: url('../images/rum.png');
-	height: 190px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 10vw;
-	margin-top: 35px;
-	margin-left: 10px;
-	margin-bottom: 260px;
-
-}
-#vodka{
-	background-image: url('../images/vodka.png');
-	height: 200px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 10vw;
-	margin-bottom: 250px;
-	margin-left: -20px;
-
-}
-
-
-.map{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin-top: 2vh;
-}
-
-#map {
-	width: 75vw;
-	height: 75vh;
-	background-color: grey;
-	margin-top: 12.5vh;
-}
-
-.page3{
-	height: 100vh;
-  width: 100vw;
-  background-color: #E2CB90;
-	background-image: url('../images/map.jpg');
-	background-size: auto;
-	background-position: 2450px 1130px;
-	background-attachment: fixed;
 }
 
 .header div{
@@ -289,4 +95,9 @@ body{
 .header a:focus{
 	color: black;
 	background-color: #EFE1C2;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
 }
