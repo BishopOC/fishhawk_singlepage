@@ -70,7 +70,7 @@ body{
 }
 
 #home {
-	background-image: url(http://livedestinfl.com/wp-content/uploads/2013/10/18849.jpg);
+	background-image: url('../images/map.jpg');
 	background-size: auto;
 	background-position: 2450px 1130px;
 	background-attachment: fixed;
@@ -311,6 +311,10 @@ body{
 	height: 100vh;
   width: 100vw;
   background-color: #E2CB90;
+	background-image: url('../images/map.jpg');
+	background-size: auto;
+	background-position: 2450px 1130px;
+	background-attachment: fixed;
 }
 
 .header div{
