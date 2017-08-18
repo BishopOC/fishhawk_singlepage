@@ -58,11 +58,6 @@ body{
 	z-index: 5;
 }
 
-.headerSnap{
-	display: block;
-	position: absolute;
-	overflow: hidden;
-}
 
 .header div{
 	display: flex;
@@ -101,3 +96,15 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 600px) {
+	.header{
+		position: fixed;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.header div a{
+		font-size: 20px;
+		width: 4em;
+	}
