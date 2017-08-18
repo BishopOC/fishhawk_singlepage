@@ -102,10 +102,11 @@ body{
 	}
 
 	.header div {
+
 	}
 
 	.header div a{
-		font-size: 16px;
+		font-size: 12px;
 		width: 6em;
 		height: inherit;
 	}
