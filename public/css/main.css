@@ -46,11 +46,12 @@ table {
 body{
 	display: flex;
 	flex-direction: column;
+	overflow-x: hidden;
 }
 
 .header{
 	height: 50px;
-	width: 100%;
+	width: 100vw;
 	background-color: #6BBF9A;
 	position: fixed;
 	display: flex;
