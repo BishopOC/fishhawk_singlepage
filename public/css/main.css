@@ -99,6 +99,9 @@ body{
 }
 
 @media (max-width: 600px) {
+	body{
+		overflow-x: hidden;
+	}
 	.header{
 		height: 40px;
 	}
