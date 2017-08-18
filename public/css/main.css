@@ -102,7 +102,7 @@ body{
 	}
 
 	.header div {
-		max-height: inherit;
+		max-height: 50px;
 	}
 
 	.header div a{
