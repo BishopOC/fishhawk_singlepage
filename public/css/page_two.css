@@ -157,6 +157,7 @@
 
 .shelf {
     height: 306px;
+		width: 100vw;
 }
 
 	.shelf img{
