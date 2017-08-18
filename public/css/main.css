@@ -99,7 +99,7 @@ body{
 }
 
 @media (max-width: 600px) {
-	body{
+	html{
 		overflow-x: hidden;
 	}
 	.header{
