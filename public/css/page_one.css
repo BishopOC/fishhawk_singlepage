@@ -37,3 +37,17 @@
 	font-weight: 500;
 	z-index: 1
 }
+
+@media (max-width: 600px) {
+	#home{
+		background-position: 2450px 1030px;
+	}
+
+	.logo p{
+		font-size: 50px;
+	}
+
+	.logo #slogan {
+		font-size: 20px;
+	}
+}
