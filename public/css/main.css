@@ -103,12 +103,12 @@ body{
 	}
 
 	.header div {
-		max-height: 20px;
+		max-height: 30px;
 	}
 
 	.header div a{
 		font-size: 12px;
 		width: 6em;
 		max-height: inherit;
-		padding-top: 40px;
+		padding-top: 30px;
 	}
