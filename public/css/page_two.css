@@ -140,9 +140,24 @@
 }
 
 @media (max-width: 600px) {
-	.shelf {
-		width: 100vw;
+	.fullShelf{
+		display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0px;
 	}
+
+	.description {
+    width: 80vw;
+    height: 30vh;
+    margin-bottom: 37vh;
+    border-radius: 10px;
+}
+
+.shelf {
+    height: 306px;
+}
 
 	.shelf img{
 		width: 100vw;
