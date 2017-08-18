@@ -99,11 +99,9 @@ body{
 
 @media (max-width: 600px) {
 	.header{
-		height: 7%;
 	}
 
 	.header div {
-		height: -7%;
 	}
 
 	.header div a{
