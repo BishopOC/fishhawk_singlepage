@@ -103,8 +103,12 @@ body{
 		display: flex;
 		justify-content: center;
 	}
+
+	.header div{
+		height: inherit;
+	}
+
 	.header div a{
 		font-size: 20px;
 		width: 4em;
-		height: inherit;
 	}
