@@ -102,9 +102,9 @@ body{
 		position: fixed;
 		display: flex;
 		justify-content: center;
-		align-items: center;
 	}
 	.header div a{
 		font-size: 20px;
 		width: 4em;
+		height: inherit;
 	}
