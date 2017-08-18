@@ -98,13 +98,15 @@ body{
 }
 
 @media (max-width: 600px) {
-
+	.header{
+		height: 30px;
+	}
 	.header div{
 		height: inherit;
 	}
 
 	.header div a{
 		font-size: 16px;
-		width: 4em;
+		width: 6em;
 		height: inherit;
 	}
