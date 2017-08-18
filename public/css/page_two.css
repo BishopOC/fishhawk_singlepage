@@ -141,10 +141,10 @@
 
 @media (max-width: 600px) {
 	.shelf {
-		width: 100%;
+		width: 100vw;
 	}
 
 	.shelf img{
-		width: 100%;
+		width: 100vw;
 	}
 }
