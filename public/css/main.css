@@ -99,10 +99,11 @@ body{
 
 @media (max-width: 600px) {
 	.header{
-		height: 10%;
+		height: 7%;
 	}
-	.header div{
-		height: 9%;
+
+	.header div {
+		height: inherit;
 	}
 
 	.header div a{
