@@ -1,3 +1,9 @@
+$(window).on('load', function () {
+  $('.header div').addClass('animated fadeIn');
+
+  $('.logoFadeIn').addClass('animated fadeInUp');
+});
+
 $(document).ready(function () {
   $('#absynth').hover(function () {
     $('.abs').fadeIn();
@@ -48,4 +54,5 @@ $(document).ready(function () {
     easing: 'swing',
   };
   $('.panels').panelSnap(options);
+
 });
