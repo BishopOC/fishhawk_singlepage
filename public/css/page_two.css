@@ -18,7 +18,7 @@
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	margin-bottom: 110px;
+	margin-bottom: 10vh;
 }
 
 .shelf{
@@ -49,7 +49,7 @@
 
 .description{
 	width: 50vw;
-	height: 30vh;
+	height: 35vh;
 	margin-bottom: 37vh;
 	border-radius: 10px;
 }
@@ -60,7 +60,7 @@
 
 .info{
 	width: 50vw;
-	height: 32vh;
+	height: 36vh;
 	position: absolute;
 	display: flex;
 	flex-direction: column;
@@ -103,7 +103,7 @@
 #absynth{
 	background-image: url('../images/absynth.png');
 	height: 290px;
-	background-size: 175px;
+	background-size: 10em;
 	background-repeat: no-repeat;
 	width: 10vw;
 	margin-bottom: 250px;
@@ -125,7 +125,6 @@
 	background-repeat: no-repeat;
 	width: 10vw;
 	margin-top: 35px;
-	margin-left: 10px;
 	margin-bottom: 260px;
 }
 
@@ -137,6 +136,11 @@
 	width: 10vw;
 	margin-bottom: 250px;
 	margin-left: -20px;
+}
+
+.mobilePos{
+	background-position-x:center;
+	background-position-y:center;
 }
 
 @media (max-width: 770px) {
