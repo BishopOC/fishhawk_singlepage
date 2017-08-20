@@ -116,3 +116,7 @@ body{
 		max-height: inherit;
 		padding-top: 30px;
 	}
+
+	.display{
+		display: none;
+	}

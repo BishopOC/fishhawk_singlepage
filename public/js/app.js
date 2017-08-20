@@ -1,6 +1,7 @@
 $(window).on('load', function () {
+  $('.header div').removeClass('display');
+  $('.logoFadeIn').removeClass('display');
   $('.header div').addClass('animated fadeIn');
-
   $('.logoFadeIn').addClass('animated fadeInUp');
 });
 
