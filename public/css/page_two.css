@@ -139,7 +139,7 @@
 	margin-left: -20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 770px) {
 	.fullShelf{
 		display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@
 	.description {
     width: 80vw;
     height: 30vh;
-    margin-bottom: 37vh;
+    margin-bottom: 43vh;
     border-radius: 10px;
 }
 
@@ -196,6 +196,12 @@
 
 	#marion{
 		background-size: 2.9em;
+	}
+
+	.info{
+		width: 75vw;
+		height: 19.5em;
+		font-size: 1em;
 	}
 
 }
