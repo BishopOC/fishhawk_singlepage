@@ -41,3 +41,11 @@
 .contact p{
 	padding: 10px;
 }
+
+@media (max-width: 770px) {
+	#map {
+		width: 90vw;
+		height: 100vw;
+	}
+
+}
